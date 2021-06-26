@@ -1,0 +1,96 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+body{
+    font-family: 'Roboto', sans-serif;
+    background-color:  #E5E5E5;
+}
+
+.headerPizza{
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #222222;
+    padding: 5px;
+    justify-content: space-between;
+    box-shadow: 0 5px 5px rgba(0, 0, 0, 0.4);
+
+}
+.footerPizza{
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #222222;
+    padding: 5px;
+    justify-content: space-between;
+    box-shadow: 0 5px 5px rgba(0, 0, 0, 0.4);
+    clear: both;
+    position: relative;
+
+    align-items: center;
+
+}
+.logo{
+    height: 100%;
+}
+.logoFooter{
+    height: 100%;
+}
+.menu{
+    display: flex;
+    flex-wrap: wrap;
+    color: #ffffff;
+    padding: 10px;
+}
+.menuFooter{
+    flex-direction: column;
+    display: flex;
+    flex-wrap: wrap;
+    color: #ffffff;
+}
+.btnMenu{
+    display: flex;
+    margin: 20px;
+}
+
+.content{
+    padding: 100px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    height: auto;
+}
+.delivery{
+    display: flex;
+    flex-wrap: wrap;
+    height: auto;
+    width: 490px;
+}
+.deliveryC{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column; 
+}
+.podium{
+    border-radius: 5px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 20px;
+    background-color: #ffffff;
+    width: 491px;
+    margin-left: 10px;
+    max-height: 350px;
+}
+.titlePodium{
+    color: #ff0000;
+    border: 1px solid red;
+    text-align: center;
+}
+.contentPodium{
+
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    justify-content: space-around;
+}

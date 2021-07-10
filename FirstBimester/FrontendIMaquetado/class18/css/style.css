@@ -1,0 +1,329 @@
+body {
+
+    font-family: 'Roboto' , sans-serif;
+    
+}
+.containerHeader {
+    font-size:10px;
+    display:flex; 
+    margin: auto; 
+    float:right;
+    background-color:#000000;
+    color: #ffffff;
+    width: 100%;
+}
+
+.textHeader {
+    padding-left: 70px; 
+    padding-top: 10px;
+}
+.ulHeader{
+    list-style-type:none;
+    margin-left: auto;
+    margin-right: 0;
+    padding-right: 20px; 
+}
+.liHeader{
+    padding-right: 10px;
+    margin-right:10px;
+    display: table-cell; 
+    vertical-align:middle;
+}
+.liBanner:hover{
+
+    color:#3C2313; 
+}
+ .containerBanner{
+
+    display:flex;
+    float:right;
+    background-color: #F0A83E; 
+    width: 100%;
+ }
+.logo{
+    height:100%; 
+    padding: 20px;
+    vertical-align:middle;
+
+}
+.ulBanner{
+    color: #ffffff; 
+    list-style-type:none;
+    margin-left: auto;
+    margin-right: 0;
+    padding-right: 20px; 
+    padding-top: 20px; 
+}
+.liBanner{
+    padding-right: 10px; 
+    margin-right:10px; 
+    display: table-cell;
+}
+
+.imgSlide{
+
+    width:100%;
+    height:auto;
+    vertical-align:middle;
+}
+.outstandingProducts{
+
+    margin: auto; 
+    color: #3C2313; 
+    text-align: center;
+}
+
+.ulOutstanding{
+
+    display: inline; 
+    list-style-type:none;
+    text-align: center;
+    margin: auto; 
+    padding-inline-start: 0;
+
+}
+.ilOutstanding{
+    padding-right: 10px; 
+    margin-right:10px; 
+    display: table-cell;
+}
+.h1Outstanding{
+
+    font-size: 40px;
+}
+
+.tableProducts{
+
+    margin: auto; 
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    height: 100%;
+}
+.products{
+
+    display: flex;
+    flex-wrap: wrap;
+    height: auto;
+    background-color: #fbfaf6;
+    margin: 10px;
+    flex-direction: column;
+    width: auto;
+}
+.products:hover{
+
+    background-color: #3daf84;
+}
+.imgTableProducts{
+
+    width:auto;
+    display: flex;
+    flex-wrap: nowrap;
+}
+.ulTableProduct{
+    display: flex;
+    flex-wrap: nowrap;
+    padding-inline-start:0;
+    margin:auto;
+    list-style-type:none; 
+    padding-bottom: 20px;
+
+}
+.ilTableProductText{
+    display: flex;
+    flex-wrap: nowrap;
+    text-align:center; 
+    color: #3C2313; 
+}
+.ilTableProductMoney{
+    display: flex;
+    flex-wrap: nowrap;
+    text-align:center; 
+    color:#F0A83E; 
+}
+.formContact{
+    border: 0;
+    list-style-type:none; 
+    margin: auto; 
+    text-align: center; 
+    display:list-item;
+    width:100%;
+}
+.formContact:hover{
+
+    background-color:#8A8787;
+}
+.h3Contact{
+    font-size: 25px;
+}
+.formInput{
+    background-color: #3C2313; 
+    color: #fbfaf6; 
+    border-radius:15px; 
+    width: 340px; 
+    padding: 10px; 
+    margin-bottom: 10px;
+}
+.formSubscribe{
+    vertical-align:middle;
+    adding-inline-start: 0; 
+    border: 0;
+    color: #ffffff; 
+    margin-left: auto;
+    margin-right: 0; 
+    padding-top: 20px;
+    list-style-type:none; 
+    display: block; 
+    float: right;
+}
+.formSubscribe:hover{
+    background-color: #b48133;
+}
+.containerBtnForm{
+    margin: auto; 
+    text-align: center; 
+    display: inline-block; 
+    width: 100%;
+}
+.btnForm{
+    border: 0;
+    display: inline;
+    margin: auto; 
+    text-align: center;
+    width:100px; 
+    border-radius:15px; 
+    color: #fbfaf6;
+}
+.btnReset{
+
+    padding: 5px 12px 5px 12px;
+    background-color: #8A8787; 
+     
+    
+}
+.btnSend{
+
+    padding: 5px 25px 5px 25px;
+    background-color: #F0A83E; 
+
+}
+.btnSubscribe{
+    border: 0;
+    font-size: 10px;
+    text-align: center;
+    width:70px; 
+    background-color: #3C2313; 
+    color: #fbfaf6; 
+    border-radius:15px; 
+    padding: 10px 5px 10px 5px;
+}
+.imgSubscribe{
+
+    padding: 20px;
+    vertical-align:middle;
+}
+.containerSubscribe{
+
+    vertical-align:middle;
+    padding-right: 10px; 
+    margin-right:10px; 
+    display: table-cell;
+    color: #fbfaf6; 
+    padding-top: 20px;
+}
+
+.inputSubscribe{
+
+    font-size:10px; 
+    background-color: #ffffff; 
+    color: #A0A0A0; 
+    border-radius:15px; 
+    width: 217px; 
+    padding: 10px; 
+    margin-bottom: 10px;
+}
+.containerFooter{
+
+    font-size:10px;
+    display:flex; 
+    margin: auto; 
+    float:right;
+    background-color:#000000;
+    color: #ffffff;
+    width: 100%;
+}
+
+.textFooter{
+    padding-left: 70px; 
+    padding-top: 10px;
+    margin: auto;
+}
+.containerSlideBanner{
+
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: flex-end;
+    align-items: center;
+}
+.containerSubtitles{
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    position:absolute;
+    align-items: center;
+    padding-right: 60px;
+}
+.title, .subTitle, .subTitle2 {
+    display: flex;
+    margin: 0 auto;
+    margin-top: 20px;
+    font-weight: 400;
+}
+.title{
+    background-color: #ffffff;
+    padding: 10px;
+    font-size: 30px;
+    border-radius: 10px;
+}
+.subTitle{
+
+    font-size: 16px;
+}
+.subTitle2{
+    
+    padding: 20px;
+    background-color: #F0A83E;
+    border-radius: 5px;
+    color: #ffffff;
+
+
+}
+@media (min-width: 651px) {
+    
+    #btnMenuMobile{
+
+        display: none;
+    }
+}
+@media (min-width: 320px) and (max-width: 650px) {
+
+    #btn1Menu, #btn2Menu, #btn3Menu, #btn4Menu{
+       display: none;
+    }
+    #slideBanner{
+        content: url('../img/mobile/slide.png');
+        height: auto;
+
+    }
+    .containerSubtitles{
+
+        padding: 0;
+        align-items: center;
+    }
+    .containerSlideBanner{
+
+        justify-content: center;
+    }
+}

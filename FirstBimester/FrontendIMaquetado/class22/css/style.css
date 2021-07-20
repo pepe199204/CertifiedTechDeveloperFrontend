@@ -1,0 +1,41 @@
+.headerImg {
+  text-align: center;
+  background-color: #E5E5E5; }
+
+h1, h3 {
+  color: #005677;
+  background-color: #C4C4C4;
+  padding: 5px; }
+
+.mainTitle {
+  text-align: center; }
+
+.otherList {
+  list-style: none; }
+
+.subOtherList {
+  padding-left: 79px; }
+
+footer {
+  text-align: center;
+  background-color: #005677;
+  width: auto;
+  height: auto;
+  position: relative;
+  display: flex; }
+
+.footerS {
+  color: #FFFFFF;
+  margin: 0 auto;
+  vertical-align: middle;
+  height: 100%;
+  display: flex; }
+
+img {
+  height: 100%;
+  padding: 15px 10px 0 15px; }
+
+.containerInfo {
+  margin: 0 auto;
+  width: 60%;
+  display: block; }

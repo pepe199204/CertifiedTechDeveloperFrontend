@@ -1,0 +1,355 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+button{
+    border-style: none;
+}
+a{
+    text-decoration: none;
+}
+body{
+    font-family: 'Roboto', sans-serif;
+    height: 800px;
+
+}
+.headerContainer{
+    z-index: 1;
+    position: sticky;
+    left: 0px;
+    top: 0px;
+    box-shadow: 0 5px 5px rgba(0, 0, 0, 0.4);
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+
+}
+.discounts{
+    padding: 10px;
+    background-color: #1CD1B0;
+    width: 100%;
+
+}
+.title{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 20px;
+    font-size: 40px;
+    background-color: #00669F;
+    width: 100%;
+    color: #ffffff;
+    align-items: center;
+}
+.menu{
+    display: flex;
+    flex-wrap: nowrap;
+    width: 100%;
+    background-color: #001D2D;
+    justify-content: flex-end;
+}
+.menu a{
+    
+    display: flex;
+    flex-wrap: wrap;
+    text-decoration: none;
+    margin: 10px;
+    color: #ffffff;
+  
+}
+.content{
+    height: 100%;
+    margin: 100px 0;
+
+
+}
+.containerHeroes{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.containerForm{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    max-width: 620px;
+    width: 100%;
+    margin: 0 auto;
+
+}
+.form{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.form-addHero{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+
+}
+.avatar{
+    display: flex;
+    margin-top: -30%;
+    border-radius: 50%;
+    box-shadow: 0 5px 5px rgba(0, 0, 0, 0.4);
+}
+.like{
+    display: flex;
+    flex-wrap: wrap;
+    position:absolute;
+    margin: 0 auto;
+    left: 5%;
+    top: 5%;
+}
+.hero{
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 300px;
+    max-height: 600px;
+    margin: 20px 10px;
+    float: left;
+    background-color: #F3F3F3;
+    border-radius: 15% 15% 0 0;
+    box-shadow: 0 5px 5px rgba(0, 0, 0, 0.2);
+}
+.bodyHero{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: 20%;
+
+}
+.descriptionHero{
+    margin-top: 3%;
+    width: 90%;
+}
+.headerHero{
+    position: relative;
+    max-height: 193px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+.seeMorebtn{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: 10%;
+    margin-bottom: 15%;
+    padding: 15px;
+    width: 40%;
+    background-color: #00669F;
+    border: none;
+    color: #F3F3F3;
+}
+
+.barFooter{
+
+    padding: 20px;
+    background-color: #00669F;
+    width: 100%;
+    color: #ffffff;
+    clear: both;
+    position: relative;
+    text-align: center;
+}
+.form-container-title{
+    
+    display: flex;
+    justify-content:flex-start;
+    width: 100%;
+}
+
+.form-container-title-hero{
+    
+    display: flex;
+    justify-content:center;
+    width: 100%;
+}
+.form-container-title-addHero{
+    
+    display: flex;
+    justify-content:center;
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+    color: #FFFFFF;
+    
+}
+.form-title-hero{
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 71.79px;
+    margin: 20px 0;
+    color: #FFFFFF;
+}
+.form-title{
+    font-size: 72px;
+    font-weight: 700;
+    line-height: 71.79px;
+    margin: 20px 0;
+
+}
+.form-input{
+    width: 620px;
+    height: 60px;
+    border: 1.5px solid #000000;
+    margin: 10px 0;
+    padding: 20px;
+}
+.form-checkbox{
+    width: 24px;
+    height: 20px;
+    border: 1.5px solid #000000;
+    margin: 10px 0;
+    padding: 20px;
+}
+.form-message{
+    width: 620px;
+    height: 251px;
+    border: 1.5px solid #000000;
+    margin: 10px 0;
+    padding: 20px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.form-button{
+    
+    width: 295px;
+    height: 53.79px;
+    border-radius: 23px;
+    margin: 5px;
+    font-weight: 700;
+}
+.form-message-add{
+    width: 343px;
+    height: 307px;
+    border: 1.5px solid #000000;
+    margin: 10px 0;
+    padding: 20px;
+    font-family: 'Roboto', sans-serif;
+    border-radius: 20px;
+}
+
+.button-reset{
+
+    background-color: #888888;
+    color: #FFFFFF;
+}
+.button-send{
+
+    background-color: #1CD1B0;
+    color: #000000;
+}
+.button-add{
+
+    background-color: #1CD1B0;
+    color: #000000;
+    font-size: 40px;
+    width: 466px;
+    height: 87px;
+    border-radius: 23px;
+    margin: 10px 0 20px 0;
+    font-weight: 700;
+}
+.button-add:hover{
+    background-color:#001D2D;
+    color: #FFFFFF;
+}
+.button-login{
+
+    margin: 10px 0;
+    background-color: #1CD1B0;
+    color: #000000;
+    width: 614px;
+}
+.form-textLogin{
+    text-align: center;
+    margin: 15px 0;
+
+}
+.add-heroes{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #00669F;
+    width: 82px;
+    height: 82px;
+    font-size: 62px;
+    font-weight: 400;
+    line-height: 72px;
+    border-radius: 50%;
+    text-align: center;
+    margin: auto 0;
+    color: #ffffff;
+}
+.add-heroes:hover{
+    background-color: #001D2D;
+    color: #FFFFFF;
+}
+.containerForm-hero{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    max-width: 954px;
+    width: 100%;
+    margin: 0 auto;
+    background-color: #00669F;
+    border-radius: 50px;
+}
+.containerForm-hero label{
+   color: #FFFFFF;
+   margin: 10px;
+}
+.containerForm-hero input{
+    width: 343px;
+    border-radius: 20px;
+}
+.containerForm-hero p{
+    display: flex;
+    flex-direction: column;
+}
+.form-label-title{
+
+    font-size: 20px;
+}
+.containerForm-hero span{
+    color: #FFFFFF;
+}
+.containerForm-hero select{
+
+    border-radius: 20px;
+    width: 343px;
+}
+.file {
+    background-color: #CECECE;
+}
+.form-list{
+    display: flex;
+    flex-direction: column;
+    width: 350px;
+}
+.form-list span{
+
+    margin: 10px;
+    font-size: 20px;
+}
+.container-form-list{
+    display: flex;
+    flex-direction: row;
+    width: 180px;
+    align-items: center;
+}
+.container-form-list input{
+    
+    width: 24px;
+    height: 20px;
+    font-size: 1rem;
+}

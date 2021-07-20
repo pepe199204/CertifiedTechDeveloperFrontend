@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;400&display=swap" rel="stylesheet">
+    <title>Añadir Héroe</title>
+</head>
+<body>
+    <header class="headerContainer">
+        <div class="discounts">20% de descuento en todos los productos!</div>
+        <div class="title">
+            <img src="img/logo.png" alt="logo">
+           <span>Heroes Shop</span>
+        </div>
+        <nav class="menu">
+            <a href="index.html">Regresar</a>
+        </nav>
+    </header>
+    <main class="content">
+        <section class="containerForm-hero">
+            
+            <form class="form-addHero" action="" method="POST">
+
+                <div class="form-container-title-addHero">
+                    <h3 class="form-title-hero">Añadí tu super!</h3>
+                    <span>Agregá tu personaje favorito completando las opciones.</span>
+                </div>
+
+                <p>
+                    <label class="form-label-title" for="name">* Nombre</label>
+                    <input class="form-input" type="text" name="name" id="name" placeholder="Ingresar tu nombre" required>
+                </p>
+
+                <p>
+                    <label class="form-label-title" for="especie">* Especie</label>
+                    <select class="form-input" name="especie" id="especie">
+                        <option value="" selected disabled hidden>Especie</option>
+                        <option value="ARG">Acuatica</option>
+                        <option value="COL">Aerea</option>
+                        <option value="BR">Extraterrestre</option>
+                    </select>
+                </p>
+                
+                <p>
+                    <label class="form-label-title" for="fecha">* Fecha</label>
+                    <input class="form-input" type="date" name="fecha" id="fecha" required>
+                </p>
+
+                <p>
+                    <label class="form-label-title" for="archivo">* Agregar Foto</label>
+                    <input class="form-input file" type="file" name="archivo" id="archivo" required>
+                </p>
+                
+                <p>
+                    <label for="message"></label>
+                    <textarea class="form-message-add" name="message" id="message" placeholder="Ingresar tu mensaje" required></textarea>
+                </p>
+
+                <div class="form-list">
+
+                    <span>* Poderes</span>
+                    <div class="container-form-list">
+                        <input type="checkbox" name="poderes"required>
+                        <label for="poderes">Volar</label>
+                    </div>
+                    <div class="container-form-list">
+                        <input type="checkbox" name="poderes"required>
+                        <label for="poderes">SuperInteligencia</label>
+                    </div>
+                    <div class="container-form-list">
+                        <input type="checkbox" name="poderes"required>
+                        <label for="poderes">Vista de rayo láser</label>
+                    </div>
+                    <div class="container-form-list">
+                        <input type="checkbox" name="poderes"required>
+                        <label for="poderes">Billetera gorda</label>
+                    </div>
+                    <br>
+                    <hr>
+                    <span>* Tipo de personaje</span>
+                    <div class="container-form-list">
+                        <input type="radio" name="tipopersonaje"required>
+                        <label for="tipopersonaje">Heroina / Héroe</label>
+                    </div>
+                    <div class="container-form-list">
+                        <input type="radio" name="tipopersonaje"required>
+                        <label for="tipopersonaje">Villana / Villano</label>
+                    </div>
+                    <br>
+                </div>
+                <button class="button-add" type="submit">Añadir</button>
+
+            </form>
+        </section>
+    </main>
+    <footer> 
+        <div class="barFooter">
+        Todos los derechos reservados a FRONT END 1
+    </div>
+    </footer>
+</body>
+</html>

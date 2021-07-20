@@ -178,8 +178,8 @@ button:hover{
     margin-bottom: 10px;
 }
 .formSubscribe{
-    vertical-align:middle;
-    adding-inline-start: 0; 
+    /* vertical-align:middle; */
+    padding-inline-start: 0; 
     border: 0;
     color: #ffffff; 
     margin-left: auto;
